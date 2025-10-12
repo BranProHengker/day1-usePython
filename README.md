@@ -32,6 +32,7 @@ gesture_recognition/
 ├── pointing.jpg           # Image for pointing gesture
 ├── thinking.jpg           # Image for thinking gesture
 ├── neutral.jpg            # Image for neutral gesture
+├── requirements.txt            # Requirements for the program
 └── README.md
 ```
 
