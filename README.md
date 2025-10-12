@@ -27,12 +27,12 @@ pip install -r requirements.txt
 ```
 gesture_recognition/
 │
-├── gesture-tracker.py                # Main program
+├── gesture-tracker.py     # Main program
 ├── thumbs_up.jpg          # Image for thumbs up gesture
 ├── pointing.jpg           # Image for pointing gesture
 ├── thinking.jpg           # Image for thinking gesture
 ├── neutral.jpg            # Image for neutral gesture
-├── requirements.txt            # Requirements for the program
+├── requirements.txt       # Requirements for the program
 └── README.md
 ```
 
