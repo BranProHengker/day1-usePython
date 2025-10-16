@@ -14,12 +14,16 @@ mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 mp_face_mesh = mp.solutions.face_mesh
 
+# detect hand
+
 hands = mp_hands.Hands(
     static_image_mode=False,
     max_num_hands=1,
     min_detection_confidence=0.7,
     min_tracking_confidence=0.6
 )
+
+# detecct face
 
 face_mesh = mp_face_mesh.FaceMesh(
     max_num_faces=1,
@@ -109,7 +113,7 @@ def check_thinking_gesture(hand_landmarks, face_landmarks, frame_width, frame_he
 CAMERA_INDEX = 0
 cap = cv2.VideoCapture(CAMERA_INDEX)
 
-print("Gesture Tracker running. Press 'q' to quit.")
+print("Yang Gerak Monyet. Press 'q' to quit.")
 
 while cap.isOpened():
     success, frame = cap.read()
